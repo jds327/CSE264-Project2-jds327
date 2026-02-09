@@ -1,0 +1,54 @@
+body{
+    background-color: antiquewhite;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    color: black
+}
+
+footer{
+    text-align: center;
+    font-size: 0.8em;
+    color: gray;
+    margin-top: 50px;
+}
+
+header{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.lists-container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  background-color: beige;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.gallery-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+ol {
+  list-style-type: upper-roman;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+
+.welcome-section {
+  background-color: lightblue;
+  padding: 20px;
+  border-radius: 10px;
+}
+
